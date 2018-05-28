@@ -4,7 +4,7 @@ $(document).ready(function(e) {
 	   $('#izquierda').on("swipeleft",function(){ //deslizar a la izquierda
 		   navigator.notification.alert("dezlizó hacia la izquierda",function(){"aplicación 7", "ok"}); //aparece mensaje alert
 	   }); //cierra swipeleft
-	   $('#Derecha').on("swiperight",function(){ //deslizar derecha
+	   $('#derecha').on("swiperight",function(){ //deslizar derecha
 		   navigator.notification.confirm("¿que quieres hacer?",function(op){ //aparece mensaje para confirmar
 			   switch(op) //variable op para las opciones
 			   {
